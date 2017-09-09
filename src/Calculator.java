@@ -20,16 +20,16 @@ public class Calculator {
         switch (operation) {
             case "+":
                 System.out.println(Integer.parseInt(num1) + Integer.parseInt(num2));
-                return;
+                break;
             case "-":
                 System.out.println(Integer.parseInt(num1) - Integer.parseInt(num2));
-                return;
+                break;
             case "*":
                 System.out.println(Integer.parseInt(num1) * Integer.parseInt(num2));
-                return;
+                break;
             case "/":
                 System.out.println(Integer.parseInt(num1) / Integer.parseInt(num2));
-                return;
+                break;
         }
     }
 }
